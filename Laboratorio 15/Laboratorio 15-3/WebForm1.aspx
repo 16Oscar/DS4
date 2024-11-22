@@ -11,6 +11,11 @@
     <form id="form1" runat="server">
         <div>
         </div>
+        <asp:Label ID="Label1" runat="server" Text="Introduzca un texto"></asp:Label>
+        <p>
+            <asp:TextBox ID="txtMensaje" runat="server"></asp:TextBox>
+            <asp:Button ID="txtSaludo" runat="server" OnClick="txtSaludo_Click" Text="Enviar Saludo!" />
+        </p>
     </form>
 </body>
 </html>

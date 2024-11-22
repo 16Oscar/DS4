@@ -13,5 +13,11 @@ namespace Laboratorio_15_3
         {
 
         }
+
+        protected void txtSaludo_Click(object sender, EventArgs e)
+        {
+            String texto = txtMensaje.Text;
+            Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "MessageBox", "window.alert('Hola: " + texto + "');", true);
+        }
     }
 }
