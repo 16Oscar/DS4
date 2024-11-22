@@ -59,6 +59,7 @@
             TablaProducts.Name = "TablaProducts";
             TablaProducts.Size = new Size(245, 179);
             TablaProducts.TabIndex = 2;
+            TablaProducts.SelectedIndexChanged += TablaProducts_SelectedIndexChanged;
             // 
             // Form1
             // 
